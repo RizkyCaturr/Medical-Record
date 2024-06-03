@@ -1,0 +1,150 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <block type="component_event" id=":|TS-bMQI(jD@J_wAA9," x="10" y="10">
+    <mutation component_type="Button" is_generic="false" instance_name="regist_btn" event_name="Click"></mutation>
+    <field name="COMPONENT_SELECTOR">regist_btn</field>
+    <statement name="DO">
+      <block type="controls_if" id="+BE?ox]p67Be3uYBjlf7">
+        <mutation elseif="2" else="1"></mutation>
+        <value name="IF0">
+          <block type="text_isEmpty" id="Uq!]btifE(dYF6Qf10=7">
+            <value name="VALUE">
+              <block type="component_set_get" id="Cu!BRPgv(Z-o/YB]Y1E|">
+                <mutation component_type="TextBox" set_or_get="get" property_name="Text" is_generic="false" instance_name="tbox_usernm"></mutation>
+                <field name="COMPONENT_SELECTOR">tbox_usernm</field>
+                <field name="PROP">Text</field>
+              </block>
+            </value>
+          </block>
+        </value>
+        <statement name="DO0">
+          <block type="component_method" id="hG|x4)larRfxr|m{|%G[">
+            <mutation component_type="Notifier" method_name="ShowAlert" is_generic="false" instance_name="Notifier1"></mutation>
+            <field name="COMPONENT_SELECTOR">Notifier1</field>
+            <value name="ARG0">
+              <block type="text" id="^z)rsd@WL8;g!|4VCb25">
+                <field name="TEXT">Data tidak boleh kosong</field>
+              </block>
+            </value>
+          </block>
+        </statement>
+        <value name="IF1">
+          <block type="text_isEmpty" id="QxBpY6H6P.ep|7iuY?s(">
+            <value name="VALUE">
+              <block type="component_set_get" id="I~7.EVWFkoFKk.r[!J;H">
+                <mutation component_type="TextBox" set_or_get="get" property_name="Text" is_generic="false" instance_name="tbox_passwrd"></mutation>
+                <field name="COMPONENT_SELECTOR">tbox_passwrd</field>
+                <field name="PROP">Text</field>
+              </block>
+            </value>
+          </block>
+        </value>
+        <statement name="DO1">
+          <block type="component_method" id="LBAm;9g1CTQ@6tTj[J+6">
+            <mutation component_type="Notifier" method_name="ShowAlert" is_generic="false" instance_name="Notifier1"></mutation>
+            <field name="COMPONENT_SELECTOR">Notifier1</field>
+            <value name="ARG0">
+              <block type="text" id="2OTPJJKz;MSCRJO([9oA">
+                <field name="TEXT">Data tidak boleh kosong</field>
+              </block>
+            </value>
+          </block>
+        </statement>
+        <value name="IF2">
+          <block type="text_isEmpty" id="S[MDFx=Nw}d;i_ZSTNNT">
+            <value name="VALUE">
+              <block type="component_set_get" id="9.X.;F%xIO^5qd.MZ|m#">
+                <mutation component_type="TextBox" set_or_get="get" property_name="Text" is_generic="false" instance_name="tbox_hp"></mutation>
+                <field name="COMPONENT_SELECTOR">tbox_hp</field>
+                <field name="PROP">Text</field>
+              </block>
+            </value>
+          </block>
+        </value>
+        <statement name="DO2">
+          <block type="component_method" id="i,746=AQn%p%:9(Bwu7X">
+            <mutation component_type="Notifier" method_name="ShowAlert" is_generic="false" instance_name="Notifier1"></mutation>
+            <field name="COMPONENT_SELECTOR">Notifier1</field>
+            <value name="ARG0">
+              <block type="text" id="ahf86+SP(zwinqp_u{_E">
+                <field name="TEXT">Data tidak boleh kosong</field>
+              </block>
+            </value>
+          </block>
+        </statement>
+        <statement name="ELSE">
+          <block type="component_method" id=");3jrAaR]Y,.]_3frm.:">
+            <mutation component_type="FirebaseDB" method_name="StoreValue" is_generic="false" instance_name="Firebase_Database1"></mutation>
+            <field name="COMPONENT_SELECTOR">Firebase_Database1</field>
+            <value name="ARG0">
+              <block type="component_set_get" id="THOih,}eEIz-t?+~W=[w">
+                <mutation component_type="TextBox" set_or_get="get" property_name="Text" is_generic="false" instance_name="tbox_usernm"></mutation>
+                <field name="COMPONENT_SELECTOR">tbox_usernm</field>
+                <field name="PROP">Text</field>
+              </block>
+            </value>
+            <value name="ARG1">
+              <block type="lists_create_with" id="k7;bV7/FdHh%^1UjztOa">
+                <mutation items="3"></mutation>
+                <value name="ADD0">
+                  <block type="component_set_get" id="TgnigE8y-t,uu5*JrYaE">
+                    <mutation component_type="TextBox" set_or_get="get" property_name="Text" is_generic="false" instance_name="tbox_usernm"></mutation>
+                    <field name="COMPONENT_SELECTOR">tbox_usernm</field>
+                    <field name="PROP">Text</field>
+                  </block>
+                </value>
+                <value name="ADD1">
+                  <block type="component_set_get" id="`t/U!Iq%E~ZkhS`t(K{b">
+                    <mutation component_type="TextBox" set_or_get="get" property_name="Text" is_generic="false" instance_name="tbox_passwrd"></mutation>
+                    <field name="COMPONENT_SELECTOR">tbox_passwrd</field>
+                    <field name="PROP">Text</field>
+                  </block>
+                </value>
+                <value name="ADD2">
+                  <block type="component_set_get" id="x$a5))*kF(Uvahh9i3KS">
+                    <mutation component_type="TextBox" set_or_get="get" property_name="Text" is_generic="false" instance_name="tbox_hp"></mutation>
+                    <field name="COMPONENT_SELECTOR">tbox_hp</field>
+                    <field name="PROP">Text</field>
+                  </block>
+                </value>
+              </block>
+            </value>
+            <next>
+              <block type="component_method" id="Nbbcs3Q:5KmP3H9.ZJ{f">
+                <mutation component_type="Notifier" method_name="ShowAlert" is_generic="false" instance_name="Notifier1"></mutation>
+                <field name="COMPONENT_SELECTOR">Notifier1</field>
+                <value name="ARG0">
+                  <block type="text" id=".7ong!:IBAdHQ|M1zKL+">
+                    <field name="TEXT">Registrasi Berhasil</field>
+                  </block>
+                </value>
+                <next>
+                  <block type="controls_openAnotherScreenWithStartValue" id="jxaSr_4?{),mbA*SwD+]">
+                    <value name="SCREENNAME">
+                      <block type="helpers_screen_names" id="XSZN3sk8d.i.u,(@;)j1">
+                        <field name="SCREEN">Login</field>
+                      </block>
+                    </value>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </statement>
+      </block>
+    </statement>
+  </block>
+  <block type="component_event" id="gkksne/2/8HdM_z0qQe?" x="30" y="570">
+    <mutation component_type="Button" is_generic="false" instance_name="have_acc" event_name="Click"></mutation>
+    <field name="COMPONENT_SELECTOR">have_acc</field>
+    <statement name="DO">
+      <block type="controls_openAnotherScreen" id="f59gROLt$I1z*BMI-lCb">
+        <value name="SCREEN">
+          <block type="helpers_screen_names" id="~Zs|GxIFIQS=3U5k9En$">
+            <field name="SCREEN">Login</field>
+          </block>
+        </value>
+      </block>
+    </statement>
+  </block>
+  <yacodeblocks ya-version="242" language-version="34"></yacodeblocks>
+</xml>

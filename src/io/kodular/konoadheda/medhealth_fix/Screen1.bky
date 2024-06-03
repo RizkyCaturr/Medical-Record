@@ -1,0 +1,16 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <block type="component_event" id="#kev}]G=#^nF_nIV,n]?" x="-470" y="-250">
+    <mutation component_type="Button" is_generic="false" instance_name="Button1" event_name="Click"></mutation>
+    <field name="COMPONENT_SELECTOR">Button1</field>
+    <statement name="DO">
+      <block type="controls_openAnotherScreen" id="#493d5zTIMrD5*KFmt?N">
+        <value name="SCREEN">
+          <block type="helpers_screen_names" id="Kt_)Gx-8v|@QO9Kd~(~Q">
+            <field name="SCREEN">Login</field>
+          </block>
+        </value>
+      </block>
+    </statement>
+  </block>
+  <yacodeblocks ya-version="242" language-version="34"></yacodeblocks>
+</xml>

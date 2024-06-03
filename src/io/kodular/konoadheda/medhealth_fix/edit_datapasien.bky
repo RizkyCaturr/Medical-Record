@@ -1,0 +1,1269 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <block type="component_event" id="ox7P(QLh*#OES6xkkdy!" x="-530" y="-490">
+    <mutation component_type="Form" is_generic="false" instance_name="edit_datapasien" event_name="Initialize"></mutation>
+    <field name="COMPONENT_SELECTOR">edit_datapasien</field>
+    <statement name="DO">
+      <block type="component_method" id="wdA]ue2{yAa2qwvoi%|5">
+        <mutation component_type="Decoration" method_name="SetMargin" is_generic="false" instance_name="Decoration1"></mutation>
+        <field name="COMPONENT_SELECTOR">Decoration1</field>
+        <value name="ARG0">
+          <block type="component_component_block" id="uH7R}LWbL^ej,K|A-L`S">
+            <mutation component_type="VerticalArrangement" instance_name="Vertical_Arrangement1"></mutation>
+            <field name="COMPONENT_SELECTOR">Vertical_Arrangement1</field>
+          </block>
+        </value>
+        <value name="ARG1">
+          <block type="math_number" id="cl*c$|@ZR7Q*4|G1%QDs">
+            <field name="NUM">35</field>
+          </block>
+        </value>
+        <next>
+          <block type="component_method" id="GFZ!tgbwbd]`b*@,m3%S">
+            <mutation component_type="Decoration" method_name="SetShape" is_generic="false" instance_name="Decoration1"></mutation>
+            <field name="COMPONENT_SELECTOR">Decoration1</field>
+            <value name="ARG0">
+              <block type="component_component_block" id=".QVXqcoWEhl0]%X5zU]|">
+                <mutation component_type="TextBox" instance_name="data_id_pasien"></mutation>
+                <field name="COMPONENT_SELECTOR">data_id_pasien</field>
+              </block>
+            </value>
+            <value name="ARG1">
+              <block type="color_white" id="{hmQ:~FrvC:#Ku4c.yp(">
+                <field name="COLOR">#ffffff</field>
+              </block>
+            </value>
+            <value name="ARG2">
+              <block type="color_gray" id=")x{nP5_nkgLVvqf[p/9?">
+                <field name="COLOR">#9E9E9E</field>
+              </block>
+            </value>
+            <value name="ARG3">
+              <block type="logic_boolean" id="QvD]8z~1,XL~!B^oF%RZ">
+                <field name="BOOL">TRUE</field>
+              </block>
+            </value>
+            <next>
+              <block type="component_method" id="/)5G^%39lnFJE[R`TtoC">
+                <mutation component_type="Decoration" method_name="SetShape" is_generic="false" instance_name="Decoration1"></mutation>
+                <field name="COMPONENT_SELECTOR">Decoration1</field>
+                <value name="ARG0">
+                  <block type="component_component_block" id="^D2TNuiWDG#3Mgj(lJW%">
+                    <mutation component_type="TextBox" instance_name="data_nama_pasien"></mutation>
+                    <field name="COMPONENT_SELECTOR">data_nama_pasien</field>
+                  </block>
+                </value>
+                <value name="ARG1">
+                  <block type="color_white" id="]9fRgoe*Q;G9)pK!^@Zc">
+                    <field name="COLOR">#ffffff</field>
+                  </block>
+                </value>
+                <value name="ARG2">
+                  <block type="color_gray" id="~{~uM0vrgjhx~5Goa[|W">
+                    <field name="COLOR">#9E9E9E</field>
+                  </block>
+                </value>
+                <value name="ARG3">
+                  <block type="logic_boolean" id="?`S#E:{a55j#_z63mp`z">
+                    <field name="BOOL">TRUE</field>
+                  </block>
+                </value>
+                <next>
+                  <block type="component_method" id="a,6[T7XY}_[`-V:jc!6f">
+                    <mutation component_type="Decoration" method_name="SetShape" is_generic="false" instance_name="Decoration1"></mutation>
+                    <field name="COMPONENT_SELECTOR">Decoration1</field>
+                    <value name="ARG0">
+                      <block type="component_component_block" id="W9ghXiXU,u7El2}LgC%8">
+                        <mutation component_type="TextBox" instance_name="data_tmpt_tgl_lahir"></mutation>
+                        <field name="COMPONENT_SELECTOR">data_tmpt_tgl_lahir</field>
+                      </block>
+                    </value>
+                    <value name="ARG1">
+                      <block type="color_white" id="KM=j$VHHPjKdzogHa-x[">
+                        <field name="COLOR">#ffffff</field>
+                      </block>
+                    </value>
+                    <value name="ARG2">
+                      <block type="color_gray" id="$0A~nDr28%|W+s42gQq(">
+                        <field name="COLOR">#9E9E9E</field>
+                      </block>
+                    </value>
+                    <value name="ARG3">
+                      <block type="logic_boolean" id="st4N(A]*QJN:eP~hW;]G">
+                        <field name="BOOL">TRUE</field>
+                      </block>
+                    </value>
+                    <next>
+                      <block type="component_method" id="8GVi]c~FF=d1QpUIygzy">
+                        <mutation component_type="Decoration" method_name="SetShape" is_generic="false" instance_name="Decoration1"></mutation>
+                        <field name="COMPONENT_SELECTOR">Decoration1</field>
+                        <value name="ARG0">
+                          <block type="component_component_block" id="Tu~/AY!t!0;$+b8Yub5M">
+                            <mutation component_type="TextBox" instance_name="data_gender"></mutation>
+                            <field name="COMPONENT_SELECTOR">data_gender</field>
+                          </block>
+                        </value>
+                        <value name="ARG1">
+                          <block type="color_white" id="vs0?k7h{W}F1.!B),u=c">
+                            <field name="COLOR">#ffffff</field>
+                          </block>
+                        </value>
+                        <value name="ARG2">
+                          <block type="color_gray" id="!ZzR)fDPWnV#{=;x33]=">
+                            <field name="COLOR">#9E9E9E</field>
+                          </block>
+                        </value>
+                        <value name="ARG3">
+                          <block type="logic_boolean" id="7]a5lV/f-AL2=k?jtH^f">
+                            <field name="BOOL">TRUE</field>
+                          </block>
+                        </value>
+                        <next>
+                          <block type="component_method" id="HL``?H%6Oi/S73:|o692">
+                            <mutation component_type="Decoration" method_name="SetShape" is_generic="false" instance_name="Decoration1"></mutation>
+                            <field name="COMPONENT_SELECTOR">Decoration1</field>
+                            <value name="ARG0">
+                              <block type="component_component_block" id="Z*D%nLy|M!D7siJm`}bm">
+                                <mutation component_type="TextBox" instance_name="data_gol_darah"></mutation>
+                                <field name="COMPONENT_SELECTOR">data_gol_darah</field>
+                              </block>
+                            </value>
+                            <value name="ARG1">
+                              <block type="color_white" id="zx/o|*]#Y!DbM[,l^u[z">
+                                <field name="COLOR">#ffffff</field>
+                              </block>
+                            </value>
+                            <value name="ARG2">
+                              <block type="color_gray" id="F$sjHc{YT:LdAH[uyK~o">
+                                <field name="COLOR">#9E9E9E</field>
+                              </block>
+                            </value>
+                            <value name="ARG3">
+                              <block type="logic_boolean" id="eiS[8KIa7n;I16!]w*kw">
+                                <field name="BOOL">TRUE</field>
+                              </block>
+                            </value>
+                            <next>
+                              <block type="component_method" id="yg*Zac(RE_H+kt{3:pN|">
+                                <mutation component_type="Decoration" method_name="SetShape" is_generic="false" instance_name="Decoration1"></mutation>
+                                <field name="COMPONENT_SELECTOR">Decoration1</field>
+                                <value name="ARG0">
+                                  <block type="component_component_block" id="OESJ(/Fis1`xnkMBz4XS">
+                                    <mutation component_type="TextBox" instance_name="data_tinggibdn_pasien"></mutation>
+                                    <field name="COMPONENT_SELECTOR">data_tinggibdn_pasien</field>
+                                  </block>
+                                </value>
+                                <value name="ARG1">
+                                  <block type="color_white" id=":os4ugEW%dTg_Y9if-=.">
+                                    <field name="COLOR">#ffffff</field>
+                                  </block>
+                                </value>
+                                <value name="ARG2">
+                                  <block type="color_gray" id="6$x5sSLH:pRyQ~@jme:J">
+                                    <field name="COLOR">#9E9E9E</field>
+                                  </block>
+                                </value>
+                                <value name="ARG3">
+                                  <block type="logic_boolean" id="%o$+0Vc_N@FAhwTJCnXq">
+                                    <field name="BOOL">TRUE</field>
+                                  </block>
+                                </value>
+                                <next>
+                                  <block type="component_method" id="sitJ.6F]oD.$T=%`g^ye">
+                                    <mutation component_type="Decoration" method_name="SetShape" is_generic="false" instance_name="Decoration1"></mutation>
+                                    <field name="COMPONENT_SELECTOR">Decoration1</field>
+                                    <value name="ARG0">
+                                      <block type="component_component_block" id="^){yMk+He~9!hZ-V~R*q">
+                                        <mutation component_type="TextBox" instance_name="data_beratbdn_pasien"></mutation>
+                                        <field name="COMPONENT_SELECTOR">data_beratbdn_pasien</field>
+                                      </block>
+                                    </value>
+                                    <value name="ARG1">
+                                      <block type="color_white" id=":O!EylJZ/{/,U;1cbJI2">
+                                        <field name="COLOR">#ffffff</field>
+                                      </block>
+                                    </value>
+                                    <value name="ARG2">
+                                      <block type="color_gray" id="Z0)V:TCx7HLSoFY~@QVO">
+                                        <field name="COLOR">#9E9E9E</field>
+                                      </block>
+                                    </value>
+                                    <value name="ARG3">
+                                      <block type="logic_boolean" id="l3IVgi}?DG/`_lPMmP1I">
+                                        <field name="BOOL">TRUE</field>
+                                      </block>
+                                    </value>
+                                    <next>
+                                      <block type="component_method" id="s4UY9Q3ptU4dzR#3X9I#">
+                                        <mutation component_type="FirebaseDB" method_name="GetValue" is_generic="false" instance_name="Firebase_Database3"></mutation>
+                                        <field name="COMPONENT_SELECTOR">Firebase_Database3</field>
+                                        <value name="ARG0">
+                                          <block type="controls_getStartValue" id="(du|Pm3M^WorCC3Yiam?"></block>
+                                        </value>
+                                        <value name="ARG1">
+                                          <block type="text" id="w5b/=|O#eF#-.+Cwb1@o">
+                                            <field name="TEXT"></field>
+                                          </block>
+                                        </value>
+                                      </block>
+                                    </next>
+                                  </block>
+                                </next>
+                              </block>
+                            </next>
+                          </block>
+                        </next>
+                      </block>
+                    </next>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </statement>
+  </block>
+  <block type="component_event" id="~4C;_^l:r9d;tIOL7GH!" x="30" y="-230">
+    <mutation component_type="TextBox" is_generic="true" event_name="GotFocus"></mutation>
+    <statement name="DO">
+      <block type="component_method" id="qM8!Qna79xR+j3zn;+jR">
+        <mutation component_type="Decoration" method_name="SetShape" is_generic="false" instance_name="Decoration1"></mutation>
+        <field name="COMPONENT_SELECTOR">Decoration1</field>
+        <value name="ARG0">
+          <block type="lexical_variable_get" id="}-WVqO`|d_K!jX?#[5gJ">
+            <mutation>
+              <eventparam name="component"></eventparam>
+            </mutation>
+            <field name="VAR">component</field>
+          </block>
+        </value>
+        <value name="ARG1">
+          <block type="color_white" id="~Gp4,]ac#jh:3+5JcP[W">
+            <field name="COLOR">#ffffff</field>
+          </block>
+        </value>
+        <value name="ARG2">
+          <block type="color_gray" id="99DpZdS87[4u`XnY1QwW">
+            <field name="COLOR">#3333ff</field>
+          </block>
+        </value>
+        <value name="ARG3">
+          <block type="logic_boolean" id="FG7oqt`a{II@[ns=+Tl9">
+            <field name="BOOL">TRUE</field>
+          </block>
+        </value>
+      </block>
+    </statement>
+  </block>
+  <block type="component_event" id="Oz6;%rhC[t.y_(@zJkQ;" x="30" y="-30">
+    <mutation component_type="TextBox" is_generic="true" event_name="LostFocus"></mutation>
+    <statement name="DO">
+      <block type="component_method" id="[Th;H?1yQwDDMwIWW$R4">
+        <mutation component_type="Decoration" method_name="SetShape" is_generic="false" instance_name="Decoration1"></mutation>
+        <field name="COMPONENT_SELECTOR">Decoration1</field>
+        <value name="ARG0">
+          <block type="lexical_variable_get" id="D%Oe;Q9jjB6fD|?fKEqz">
+            <mutation>
+              <eventparam name="component"></eventparam>
+            </mutation>
+            <field name="VAR">component</field>
+          </block>
+        </value>
+        <value name="ARG1">
+          <block type="color_white" id=")_uGnJfEmx~L{GPc@p9v">
+            <field name="COLOR">#ffffff</field>
+          </block>
+        </value>
+        <value name="ARG2">
+          <block type="color_gray" id="3l8H|ctD7o`+at=V{[sH">
+            <field name="COLOR">#9E9E9E</field>
+          </block>
+        </value>
+        <value name="ARG3">
+          <block type="logic_boolean" id="Bg(9mTizT0]jf{_S9Wfv">
+            <field name="BOOL">TRUE</field>
+          </block>
+        </value>
+      </block>
+    </statement>
+  </block>
+  <block type="component_event" id="Y@N6=#s:+Oa?sKJT)J!+" x="30" y="170">
+    <mutation component_type="FirebaseDB" is_generic="false" instance_name="Firebase_Database3" event_name="GotValue"></mutation>
+    <field name="COMPONENT_SELECTOR">Firebase_Database3</field>
+    <statement name="DO">
+      <block type="component_set_get" id="]$a;|bT%3!7(pkGQ!51W">
+        <mutation component_type="TextBox" set_or_get="set" property_name="Text" is_generic="false" instance_name="data_id_pasien"></mutation>
+        <field name="COMPONENT_SELECTOR">data_id_pasien</field>
+        <field name="PROP">Text</field>
+        <value name="VALUE">
+          <block type="lists_select_item" id="iJ|Ipev=nvy(8a7N;Jty">
+            <value name="LIST">
+              <block type="lexical_variable_get" id="pC_2^C_bt|,9{]wm/dZz">
+                <mutation>
+                  <eventparam name="value"></eventparam>
+                </mutation>
+                <field name="VAR">value</field>
+              </block>
+            </value>
+            <value name="NUM">
+              <block type="math_number" id="uD4SWi3A5ZLnq,MHh/Pj">
+                <field name="NUM">1</field>
+              </block>
+            </value>
+          </block>
+        </value>
+        <next>
+          <block type="component_set_get" id="!^3R%Dy$^WXz@OgGkw/u">
+            <mutation component_type="TextBox" set_or_get="set" property_name="Text" is_generic="false" instance_name="data_nama_pasien"></mutation>
+            <field name="COMPONENT_SELECTOR">data_nama_pasien</field>
+            <field name="PROP">Text</field>
+            <value name="VALUE">
+              <block type="lists_select_item" id="IA`{|0jjxnUNi)Np^[O@">
+                <value name="LIST">
+                  <block type="lexical_variable_get" id="r/dCv)__To+`O1)eRC+!">
+                    <mutation>
+                      <eventparam name="value"></eventparam>
+                    </mutation>
+                    <field name="VAR">value</field>
+                  </block>
+                </value>
+                <value name="NUM">
+                  <block type="math_number" id="ie4uv-}t~AbSeoPiEdrj">
+                    <field name="NUM">2</field>
+                  </block>
+                </value>
+              </block>
+            </value>
+            <next>
+              <block type="component_set_get" id="2_5vR0zR=BT5;^vboN/I">
+                <mutation component_type="TextBox" set_or_get="set" property_name="Text" is_generic="false" instance_name="data_tmpt_tgl_lahir"></mutation>
+                <field name="COMPONENT_SELECTOR">data_tmpt_tgl_lahir</field>
+                <field name="PROP">Text</field>
+                <value name="VALUE">
+                  <block type="lists_select_item" id="3hNSE#u=k_y(*G4}nyTG">
+                    <value name="LIST">
+                      <block type="lexical_variable_get" id="F-Wq(ScG3bs`8/1%-|P|">
+                        <mutation>
+                          <eventparam name="value"></eventparam>
+                        </mutation>
+                        <field name="VAR">value</field>
+                      </block>
+                    </value>
+                    <value name="NUM">
+                      <block type="math_number" id="4#@kT,bYU~w1!K8OtR|E">
+                        <field name="NUM">3</field>
+                      </block>
+                    </value>
+                  </block>
+                </value>
+                <next>
+                  <block type="component_set_get" id="66uOq#|%*_:TZ?XPRW,f">
+                    <mutation component_type="TextBox" set_or_get="set" property_name="Text" is_generic="false" instance_name="data_gender"></mutation>
+                    <field name="COMPONENT_SELECTOR">data_gender</field>
+                    <field name="PROP">Text</field>
+                    <value name="VALUE">
+                      <block type="lists_select_item" id="Py|oDf|FwY9UoLx05C==">
+                        <value name="LIST">
+                          <block type="lexical_variable_get" id="Cf1JkcgSlyJ1X=,0$@wT">
+                            <mutation>
+                              <eventparam name="value"></eventparam>
+                            </mutation>
+                            <field name="VAR">value</field>
+                          </block>
+                        </value>
+                        <value name="NUM">
+                          <block type="math_number" id="C?=[t7O*.kI*~AVu/^_d">
+                            <field name="NUM">4</field>
+                          </block>
+                        </value>
+                      </block>
+                    </value>
+                    <next>
+                      <block type="component_set_get" id="}qWltT(x*GAYLp6nZd+T">
+                        <mutation component_type="TextBox" set_or_get="set" property_name="Text" is_generic="false" instance_name="data_gol_darah"></mutation>
+                        <field name="COMPONENT_SELECTOR">data_gol_darah</field>
+                        <field name="PROP">Text</field>
+                        <value name="VALUE">
+                          <block type="lists_select_item" id="7!UIv.)KJl?c+w+Fnud^">
+                            <value name="LIST">
+                              <block type="lexical_variable_get" id="PcZg-_+zqW9w#6vve2,P">
+                                <mutation>
+                                  <eventparam name="value"></eventparam>
+                                </mutation>
+                                <field name="VAR">value</field>
+                              </block>
+                            </value>
+                            <value name="NUM">
+                              <block type="math_number" id="wA/E#{2M@Soae(Ouw+Zt">
+                                <field name="NUM">5</field>
+                              </block>
+                            </value>
+                          </block>
+                        </value>
+                        <next>
+                          <block type="component_set_get" id="Fkrgj8D85KIaCbE{E]k5">
+                            <mutation component_type="TextBox" set_or_get="set" property_name="Text" is_generic="false" instance_name="data_tinggibdn_pasien"></mutation>
+                            <field name="COMPONENT_SELECTOR">data_tinggibdn_pasien</field>
+                            <field name="PROP">Text</field>
+                            <value name="VALUE">
+                              <block type="lists_select_item" id="aY-jdi@]H.Ux3gct0MnB">
+                                <value name="LIST">
+                                  <block type="lexical_variable_get" id=";.ntefr$NcjG3=o0xhic">
+                                    <mutation>
+                                      <eventparam name="value"></eventparam>
+                                    </mutation>
+                                    <field name="VAR">value</field>
+                                  </block>
+                                </value>
+                                <value name="NUM">
+                                  <block type="math_number" id="U:BP?_]zC(OtJLN_5gNu">
+                                    <field name="NUM">6</field>
+                                  </block>
+                                </value>
+                              </block>
+                            </value>
+                            <next>
+                              <block type="component_set_get" id="t(ZCG,Nwz+@R9f@DK8D3">
+                                <mutation component_type="TextBox" set_or_get="set" property_name="Text" is_generic="false" instance_name="data_beratbdn_pasien"></mutation>
+                                <field name="COMPONENT_SELECTOR">data_beratbdn_pasien</field>
+                                <field name="PROP">Text</field>
+                                <value name="VALUE">
+                                  <block type="lists_select_item" id="ijjG}m1AYf9mh^=y|*h6">
+                                    <value name="LIST">
+                                      <block type="lexical_variable_get" id="}|gEJF98nj%=Vlpm/Cjl">
+                                        <mutation>
+                                          <eventparam name="value"></eventparam>
+                                        </mutation>
+                                        <field name="VAR">value</field>
+                                      </block>
+                                    </value>
+                                    <value name="NUM">
+                                      <block type="math_number" id="v}O@u5(/6`kUS@Huo|j(">
+                                        <field name="NUM">7</field>
+                                      </block>
+                                    </value>
+                                  </block>
+                                </value>
+                              </block>
+                            </next>
+                          </block>
+                        </next>
+                      </block>
+                    </next>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </statement>
+  </block>
+  <block type="component_event" id="AgrX*-PM1@1}rm}y%]t)" x="-1130" y="590">
+    <mutation component_type="Button" is_generic="false" instance_name="Tambah" event_name="Click"></mutation>
+    <field name="COMPONENT_SELECTOR">Tambah</field>
+    <statement name="DO">
+      <block type="controls_if" id="m[E1,.jW!{2;_(5E7)MG">
+        <mutation elseif="6" else="1"></mutation>
+        <value name="IF0">
+          <block type="text_isEmpty" id="C.7btm*NgD+.:?PNR)XS">
+            <value name="VALUE">
+              <block type="component_set_get" id="Myl?{#Kdx%O|e_~uVW+l">
+                <mutation component_type="TextBox" set_or_get="get" property_name="Text" is_generic="false" instance_name="data_id_pasien"></mutation>
+                <field name="COMPONENT_SELECTOR">data_id_pasien</field>
+                <field name="PROP">Text</field>
+              </block>
+            </value>
+          </block>
+        </value>
+        <statement name="DO0">
+          <block type="component_set_get" id="+;f-E^XR9h?R1mZFu:cm">
+            <mutation component_type="TextBox" set_or_get="set" property_name="ErrorText" is_generic="false" instance_name="data_id_pasien"></mutation>
+            <field name="COMPONENT_SELECTOR">data_id_pasien</field>
+            <field name="PROP">ErrorText</field>
+            <value name="VALUE">
+              <block type="text" id="zzaWX){7l7/!:5R[]%MO">
+                <field name="TEXT">Harap Diisi!</field>
+              </block>
+            </value>
+            <next>
+              <block type="component_method" id="^WDT.d8Z(,E?4Z4`:{xp">
+                <mutation component_type="TextBox" method_name="ShowError" is_generic="false" instance_name="data_id_pasien"></mutation>
+                <field name="COMPONENT_SELECTOR">data_id_pasien</field>
+                <next>
+                  <block type="component_method" id="[WBtOPKDvyjyqv*+n{oA">
+                    <mutation component_type="TextBox" method_name="RequestFocus" is_generic="false" instance_name="data_id_pasien"></mutation>
+                    <field name="COMPONENT_SELECTOR">data_id_pasien</field>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </statement>
+        <value name="IF1">
+          <block type="text_isEmpty" id="znU^Wtq,a2*UiXeNj;!]">
+            <value name="VALUE">
+              <block type="component_set_get" id="Fur.$k365HH%-Cma-(-B">
+                <mutation component_type="TextBox" set_or_get="get" property_name="Text" is_generic="false" instance_name="data_nama_pasien"></mutation>
+                <field name="COMPONENT_SELECTOR">data_nama_pasien</field>
+                <field name="PROP">Text</field>
+              </block>
+            </value>
+          </block>
+        </value>
+        <statement name="DO1">
+          <block type="component_set_get" id="ofS:w_jI#(KHn]8.n7E1">
+            <mutation component_type="TextBox" set_or_get="set" property_name="ErrorText" is_generic="false" instance_name="data_nama_pasien"></mutation>
+            <field name="COMPONENT_SELECTOR">data_nama_pasien</field>
+            <field name="PROP">ErrorText</field>
+            <value name="VALUE">
+              <block type="text" id="f8gzj%xn!Z/ntBT||Zqg">
+                <field name="TEXT">Harap Diisi!</field>
+              </block>
+            </value>
+            <next>
+              <block type="component_method" id="P,WTv9U!i!f*Jd2fr%|X">
+                <mutation component_type="TextBox" method_name="ShowError" is_generic="false" instance_name="data_nama_pasien"></mutation>
+                <field name="COMPONENT_SELECTOR">data_nama_pasien</field>
+                <next>
+                  <block type="component_method" id="+%NK%Hv2KLYGQxU_uRBM">
+                    <mutation component_type="TextBox" method_name="RequestFocus" is_generic="false" instance_name="data_nama_pasien"></mutation>
+                    <field name="COMPONENT_SELECTOR">data_nama_pasien</field>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </statement>
+        <value name="IF2">
+          <block type="text_isEmpty" id="_?o,+F~-rj;*rf5hGb=V">
+            <value name="VALUE">
+              <block type="component_set_get" id="_9X;g0@.;Ll_)pN-T4b?">
+                <mutation component_type="TextBox" set_or_get="get" property_name="Text" is_generic="false" instance_name="data_tmpt_tgl_lahir"></mutation>
+                <field name="COMPONENT_SELECTOR">data_tmpt_tgl_lahir</field>
+                <field name="PROP">Text</field>
+              </block>
+            </value>
+          </block>
+        </value>
+        <statement name="DO2">
+          <block type="component_set_get" id="ipXc|OyV-/qg6~($`)hK">
+            <mutation component_type="TextBox" set_or_get="set" property_name="ErrorText" is_generic="false" instance_name="data_tmpt_tgl_lahir"></mutation>
+            <field name="COMPONENT_SELECTOR">data_tmpt_tgl_lahir</field>
+            <field name="PROP">ErrorText</field>
+            <value name="VALUE">
+              <block type="text" id="[et2F|U}zdMm}3[@L8D,">
+                <field name="TEXT">Harap Diisi!</field>
+              </block>
+            </value>
+            <next>
+              <block type="component_method" id="Qpq-5({_![^k.8HVf4M%">
+                <mutation component_type="TextBox" method_name="ShowError" is_generic="false" instance_name="data_tmpt_tgl_lahir"></mutation>
+                <field name="COMPONENT_SELECTOR">data_tmpt_tgl_lahir</field>
+                <next>
+                  <block type="component_method" id="7v)4E0#h.k~`=PeC*8(a">
+                    <mutation component_type="TextBox" method_name="RequestFocus" is_generic="false" instance_name="data_tmpt_tgl_lahir"></mutation>
+                    <field name="COMPONENT_SELECTOR">data_tmpt_tgl_lahir</field>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </statement>
+        <value name="IF3">
+          <block type="text_isEmpty" id="Vn8CAWYT-)h;(=.F:kwj">
+            <value name="VALUE">
+              <block type="component_set_get" id="N*bjDd^h25.r4Wkp_:f,">
+                <mutation component_type="TextBox" set_or_get="get" property_name="Text" is_generic="false" instance_name="data_gender"></mutation>
+                <field name="COMPONENT_SELECTOR">data_gender</field>
+                <field name="PROP">Text</field>
+              </block>
+            </value>
+          </block>
+        </value>
+        <statement name="DO3">
+          <block type="component_set_get" id=":-G8j+SRo#ie3/bOC(tz">
+            <mutation component_type="TextBox" set_or_get="set" property_name="ErrorText" is_generic="false" instance_name="data_gender"></mutation>
+            <field name="COMPONENT_SELECTOR">data_gender</field>
+            <field name="PROP">ErrorText</field>
+            <value name="VALUE">
+              <block type="text" id="rtM`8{YdHniKyUfo{cDH">
+                <field name="TEXT">Harap Diisi!</field>
+              </block>
+            </value>
+            <next>
+              <block type="component_method" id="Fn?Rc}QQgl7a62f%`lyN">
+                <mutation component_type="TextBox" method_name="ShowError" is_generic="false" instance_name="data_gender"></mutation>
+                <field name="COMPONENT_SELECTOR">data_gender</field>
+                <next>
+                  <block type="component_method" id="L#h`2[Pz6*th]gIsVNEj">
+                    <mutation component_type="TextBox" method_name="RequestFocus" is_generic="false" instance_name="data_gender"></mutation>
+                    <field name="COMPONENT_SELECTOR">data_gender</field>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </statement>
+        <value name="IF4">
+          <block type="text_isEmpty" id="!p]@H=lP]L)bBmv;zU=[">
+            <value name="VALUE">
+              <block type="component_set_get" id="+yeh.2j[1Uy-_WopDwSZ">
+                <mutation component_type="TextBox" set_or_get="get" property_name="Text" is_generic="false" instance_name="data_gol_darah"></mutation>
+                <field name="COMPONENT_SELECTOR">data_gol_darah</field>
+                <field name="PROP">Text</field>
+              </block>
+            </value>
+          </block>
+        </value>
+        <statement name="DO4">
+          <block type="component_set_get" id="sZ9-7xDZt5w~iB)V#9pl">
+            <mutation component_type="TextBox" set_or_get="set" property_name="ErrorText" is_generic="false" instance_name="data_gol_darah"></mutation>
+            <field name="COMPONENT_SELECTOR">data_gol_darah</field>
+            <field name="PROP">ErrorText</field>
+            <value name="VALUE">
+              <block type="text" id="@|WSW:r]Iytl:CqXY=Qq">
+                <field name="TEXT">Harap Diisi!</field>
+              </block>
+            </value>
+            <next>
+              <block type="component_method" id="onw7r1{JJ~2Y?Q8stmQQ">
+                <mutation component_type="TextBox" method_name="ShowError" is_generic="false" instance_name="data_gol_darah"></mutation>
+                <field name="COMPONENT_SELECTOR">data_gol_darah</field>
+                <next>
+                  <block type="component_method" id="H%K$X)]38$6BYb]HJEeI">
+                    <mutation component_type="TextBox" method_name="RequestFocus" is_generic="false" instance_name="data_gol_darah"></mutation>
+                    <field name="COMPONENT_SELECTOR">data_gol_darah</field>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </statement>
+        <value name="IF5">
+          <block type="text_isEmpty" id="$|-93IQ4yu@6~#}93B^Y">
+            <value name="VALUE">
+              <block type="component_set_get" id="RNsi?j]EU+gEmF!5s3Vj">
+                <mutation component_type="TextBox" set_or_get="get" property_name="Text" is_generic="false" instance_name="data_tinggibdn_pasien"></mutation>
+                <field name="COMPONENT_SELECTOR">data_tinggibdn_pasien</field>
+                <field name="PROP">Text</field>
+              </block>
+            </value>
+          </block>
+        </value>
+        <statement name="DO5">
+          <block type="component_set_get" id="1ZEm|It7Er+)d%=`hl39">
+            <mutation component_type="TextBox" set_or_get="set" property_name="ErrorText" is_generic="false" instance_name="data_tinggibdn_pasien"></mutation>
+            <field name="COMPONENT_SELECTOR">data_tinggibdn_pasien</field>
+            <field name="PROP">ErrorText</field>
+            <value name="VALUE">
+              <block type="text" id="Zc`,U5ka/M,n.ei2l|L%">
+                <field name="TEXT">Harap Diisi!</field>
+              </block>
+            </value>
+            <next>
+              <block type="component_method" id="AF_*rCp)3E2ZegG7=*]b">
+                <mutation component_type="TextBox" method_name="ShowError" is_generic="false" instance_name="data_tinggibdn_pasien"></mutation>
+                <field name="COMPONENT_SELECTOR">data_tinggibdn_pasien</field>
+                <next>
+                  <block type="component_method" id="oBkrkWwZqyAt68~~3Bez">
+                    <mutation component_type="TextBox" method_name="RequestFocus" is_generic="false" instance_name="data_tinggibdn_pasien"></mutation>
+                    <field name="COMPONENT_SELECTOR">data_tinggibdn_pasien</field>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </statement>
+        <value name="IF6">
+          <block type="text_isEmpty" id="om;zo/Y+oIillhIwR~s,">
+            <value name="VALUE">
+              <block type="component_set_get" id=";r8;AOb{N*{~_qQ/m9w6">
+                <mutation component_type="TextBox" set_or_get="get" property_name="Text" is_generic="false" instance_name="data_beratbdn_pasien"></mutation>
+                <field name="COMPONENT_SELECTOR">data_beratbdn_pasien</field>
+                <field name="PROP">Text</field>
+              </block>
+            </value>
+          </block>
+        </value>
+        <statement name="DO6">
+          <block type="component_set_get" id="l~,Y/6+ok~BlNz5StP)-">
+            <mutation component_type="TextBox" set_or_get="set" property_name="ErrorText" is_generic="false" instance_name="data_beratbdn_pasien"></mutation>
+            <field name="COMPONENT_SELECTOR">data_beratbdn_pasien</field>
+            <field name="PROP">ErrorText</field>
+            <value name="VALUE">
+              <block type="text" id="V=pP9ECNsF.bU/7ac8WQ">
+                <field name="TEXT">Harap Diisi!</field>
+              </block>
+            </value>
+            <next>
+              <block type="component_method" id="0f*K#L%iHs?O17R1!@kL">
+                <mutation component_type="TextBox" method_name="ShowError" is_generic="false" instance_name="data_beratbdn_pasien"></mutation>
+                <field name="COMPONENT_SELECTOR">data_beratbdn_pasien</field>
+                <next>
+                  <block type="component_method" id="2E!Tc~$J)(*TCN{:f-FQ">
+                    <mutation component_type="TextBox" method_name="RequestFocus" is_generic="false" instance_name="data_beratbdn_pasien"></mutation>
+                    <field name="COMPONENT_SELECTOR">data_beratbdn_pasien</field>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </statement>
+        <statement name="ELSE">
+          <block type="controls_if" id="1teUec`MmF{FzqY-bJ`c">
+            <value name="IF0">
+              <block type="logic_operation" id="fU0`ZJL|^U({jw0|GLQJ">
+                <mutation items="7"></mutation>
+                <field name="OP">AND</field>
+                <value name="A">
+                  <block type="logic_compare" id="?sOYL2@N)O@Ryk=O(K|r">
+                    <field name="OP">NEQ</field>
+                    <value name="A">
+                      <block type="component_set_get" id="Q9X:q;Ie]CqTL8w}-@3s">
+                        <mutation component_type="TextBox" set_or_get="get" property_name="Text" is_generic="false" instance_name="data_id_pasien"></mutation>
+                        <field name="COMPONENT_SELECTOR">data_id_pasien</field>
+                        <field name="PROP">Text</field>
+                      </block>
+                    </value>
+                    <value name="B">
+                      <block type="text" id="Lrk=C`=zK%X|,@N93$Y5">
+                        <field name="TEXT"></field>
+                      </block>
+                    </value>
+                  </block>
+                </value>
+                <value name="B">
+                  <block type="logic_compare" id="^?Plk,js0$8e6^4IuKG`">
+                    <field name="OP">NEQ</field>
+                    <value name="A">
+                      <block type="component_set_get" id=",y2?FnKIEYr(M|/8r;K]">
+                        <mutation component_type="TextBox" set_or_get="get" property_name="Text" is_generic="false" instance_name="data_nama_pasien"></mutation>
+                        <field name="COMPONENT_SELECTOR">data_nama_pasien</field>
+                        <field name="PROP">Text</field>
+                      </block>
+                    </value>
+                    <value name="B">
+                      <block type="text" id="X2,-6hJmDJf;X!rkG=,g">
+                        <field name="TEXT"></field>
+                      </block>
+                    </value>
+                  </block>
+                </value>
+                <value name="BOOL2">
+                  <block type="logic_compare" id="=3/M_9e2(-uv(}LeqGTr">
+                    <field name="OP">NEQ</field>
+                    <value name="A">
+                      <block type="component_set_get" id=",F%Glty2iI|-c2bz=eoA">
+                        <mutation component_type="TextBox" set_or_get="get" property_name="Text" is_generic="false" instance_name="data_tmpt_tgl_lahir"></mutation>
+                        <field name="COMPONENT_SELECTOR">data_tmpt_tgl_lahir</field>
+                        <field name="PROP">Text</field>
+                      </block>
+                    </value>
+                    <value name="B">
+                      <block type="text" id="IBG6WzPmh_.Z::)W]=_L">
+                        <field name="TEXT"></field>
+                      </block>
+                    </value>
+                  </block>
+                </value>
+                <value name="BOOL3">
+                  <block type="logic_compare" id="x$H,,jGDeXjsA,LqF8g*">
+                    <field name="OP">NEQ</field>
+                    <value name="A">
+                      <block type="component_set_get" id="M3/|s*encFX^p%r7He!M">
+                        <mutation component_type="TextBox" set_or_get="get" property_name="Text" is_generic="false" instance_name="data_gender"></mutation>
+                        <field name="COMPONENT_SELECTOR">data_gender</field>
+                        <field name="PROP">Text</field>
+                      </block>
+                    </value>
+                    <value name="B">
+                      <block type="text" id="JP_;1(m+0`$YFCbCh2tR">
+                        <field name="TEXT"></field>
+                      </block>
+                    </value>
+                  </block>
+                </value>
+                <value name="BOOL4">
+                  <block type="logic_compare" id="Te1pF%DF/K}fulEQOR/{">
+                    <field name="OP">NEQ</field>
+                    <value name="A">
+                      <block type="component_set_get" id="K2FEFC=EK=[{!+V0N2o(">
+                        <mutation component_type="TextBox" set_or_get="get" property_name="Text" is_generic="false" instance_name="data_gol_darah"></mutation>
+                        <field name="COMPONENT_SELECTOR">data_gol_darah</field>
+                        <field name="PROP">Text</field>
+                      </block>
+                    </value>
+                    <value name="B">
+                      <block type="text" id="-,Xk`%;zfmr%-Gj#KZbX">
+                        <field name="TEXT"></field>
+                      </block>
+                    </value>
+                  </block>
+                </value>
+                <value name="BOOL5">
+                  <block type="logic_compare" id="CWNL)Smth/kl)RCu_Mh[">
+                    <field name="OP">NEQ</field>
+                    <value name="A">
+                      <block type="component_set_get" id="S^VlVJB9j}4g9hIw=2]_">
+                        <mutation component_type="TextBox" set_or_get="get" property_name="Text" is_generic="false" instance_name="data_tinggibdn_pasien"></mutation>
+                        <field name="COMPONENT_SELECTOR">data_tinggibdn_pasien</field>
+                        <field name="PROP">Text</field>
+                      </block>
+                    </value>
+                    <value name="B">
+                      <block type="text" id="|uQm%Ci?TW}pDzb7B{jQ">
+                        <field name="TEXT"></field>
+                      </block>
+                    </value>
+                  </block>
+                </value>
+                <value name="BOOL6">
+                  <block type="logic_compare" id="$4V@imX*8*85e@`AZjY$">
+                    <field name="OP">NEQ</field>
+                    <value name="A">
+                      <block type="component_set_get" id="V{AWo;mnd4bh8LFM.Brd">
+                        <mutation component_type="TextBox" set_or_get="get" property_name="Text" is_generic="false" instance_name="data_beratbdn_pasien"></mutation>
+                        <field name="COMPONENT_SELECTOR">data_beratbdn_pasien</field>
+                        <field name="PROP">Text</field>
+                      </block>
+                    </value>
+                    <value name="B">
+                      <block type="text" id="kru90`.nQy$EUi8tcxZm">
+                        <field name="TEXT"></field>
+                      </block>
+                    </value>
+                  </block>
+                </value>
+              </block>
+            </value>
+            <statement name="DO0">
+              <block type="component_set_get" id="Ned)t[]LxPnNS3i?Pe`h">
+                <mutation component_type="Button" set_or_get="set" property_name="BackgroundColor" is_generic="false" instance_name="Tambah"></mutation>
+                <field name="COMPONENT_SELECTOR">Tambah</field>
+                <field name="PROP">BackgroundColor</field>
+                <value name="VALUE">
+                  <block type="color_light_blue" id="`.JE,$V$:*-^~?(V(J2X">
+                    <field name="COLOR">#33ccff</field>
+                  </block>
+                </value>
+              </block>
+            </statement>
+            <next>
+              <block type="component_method" id="]9:N5H%II/-y7%fw,CT|">
+                <mutation component_type="FirebaseDB" method_name="GetValue" is_generic="false" instance_name="Firebase_Database2"></mutation>
+                <field name="COMPONENT_SELECTOR">Firebase_Database2</field>
+                <value name="ARG0">
+                  <block type="component_set_get" id="s@z-rHHK15E1PjZ4*]5@">
+                    <mutation component_type="TextBox" set_or_get="get" property_name="Text" is_generic="false" instance_name="data_id_pasien"></mutation>
+                    <field name="COMPONENT_SELECTOR">data_id_pasien</field>
+                    <field name="PROP">Text</field>
+                  </block>
+                </value>
+                <value name="ARG1">
+                  <block type="text" id="H9D(hN6)5M}Nz?DS04^%">
+                    <field name="TEXT"></field>
+                  </block>
+                </value>
+              </block>
+            </next>
+          </block>
+        </statement>
+      </block>
+    </statement>
+  </block>
+  <block type="component_event" id=";[rm=N,;}]e.|3vPi-JN" x="-490" y="630">
+    <mutation component_type="FirebaseDB" is_generic="false" instance_name="Firebase_Database2" event_name="GotValue"></mutation>
+    <field name="COMPONENT_SELECTOR">Firebase_Database2</field>
+    <statement name="DO">
+      <block type="controls_if" id="ibz0*)i84-Tu(YIB,|`2">
+        <mutation else="1"></mutation>
+        <value name="IF0">
+          <block type="logic_compare" id="kO`:76Zb~ZE]l1x5itub">
+            <field name="OP">NEQ</field>
+            <value name="A">
+              <block type="lexical_variable_get" id=":ObLF_WZpaR]1=i2@Io+">
+                <mutation>
+                  <eventparam name="tag"></eventparam>
+                </mutation>
+                <field name="VAR">tag</field>
+              </block>
+            </value>
+            <value name="B">
+              <block type="controls_getStartValue" id="]lB8A}ERr4siU#PSaw(T"></block>
+            </value>
+          </block>
+        </value>
+        <statement name="DO0">
+          <block type="controls_if" id="HvNE._Rw4(FF$XFsXsDL">
+            <mutation else="1"></mutation>
+            <value name="IF0">
+              <block type="logic_negate" id="W;P|8k(+prR^l1Ur:qM,">
+                <value name="BOOL">
+                  <block type="text_isEmpty" id="]2r}?@]%6U8;uU$Ejw3c">
+                    <value name="VALUE">
+                      <block type="lexical_variable_get" id="tE}=@^BO$7RYn[tR^026">
+                        <mutation>
+                          <eventparam name="value"></eventparam>
+                        </mutation>
+                        <field name="VAR">value</field>
+                      </block>
+                    </value>
+                  </block>
+                </value>
+              </block>
+            </value>
+            <statement name="DO0">
+              <block type="component_set_get" id="wi6eE}::|Tna}q)`B_.4">
+                <mutation component_type="TextBox" set_or_get="set" property_name="ErrorText" is_generic="false" instance_name="data_id_pasien"></mutation>
+                <field name="COMPONENT_SELECTOR">data_id_pasien</field>
+                <field name="PROP">ErrorText</field>
+                <value name="VALUE">
+                  <block type="text" id="Vhuge+u4f~q6{#eq:3;x">
+                    <field name="TEXT">Data sudah ada</field>
+                  </block>
+                </value>
+                <next>
+                  <block type="component_method" id="G4h}v$XFi=liC2=RE{a5">
+                    <mutation component_type="TextBox" method_name="ShowError" is_generic="false" instance_name="data_id_pasien"></mutation>
+                    <field name="COMPONENT_SELECTOR">data_id_pasien</field>
+                    <next>
+                      <block type="component_method" id="85DLtY(X?!G.C3?5|n%a">
+                        <mutation component_type="TextBox" method_name="RequestFocus" is_generic="false" instance_name="data_id_pasien"></mutation>
+                        <field name="COMPONENT_SELECTOR">data_id_pasien</field>
+                      </block>
+                    </next>
+                  </block>
+                </next>
+              </block>
+            </statement>
+            <statement name="ELSE">
+              <block type="component_method" id="7J`[~[}zr_th|p46Xy{_">
+                <mutation component_type="Notifier" method_name="ShowChooseDialog" is_generic="false" instance_name="Notifier1"></mutation>
+                <field name="COMPONENT_SELECTOR">Notifier1</field>
+                <value name="ARG0">
+                  <block type="text" id="@pZkI_[mWPzSP6sCB]|9">
+                    <field name="TEXT">Apakah yakin update data?</field>
+                  </block>
+                </value>
+                <value name="ARG1">
+                  <block type="text" id="w^d)DG8VbJm=Voxq;8f;">
+                    <field name="TEXT">Update</field>
+                  </block>
+                </value>
+                <value name="ARG2">
+                  <block type="text" id="aG~]F:1!`#Vz}K@luCm~">
+                    <field name="TEXT">Ya</field>
+                  </block>
+                </value>
+                <value name="ARG3">
+                  <block type="text" id="uG_0:F%[-YI5{Q_o.I!3">
+                    <field name="TEXT">Tidak</field>
+                  </block>
+                </value>
+                <value name="ARG4">
+                  <block type="logic_boolean" id="pOCeBoOfr2[N)zNTk[Qs">
+                    <field name="BOOL">FALSE</field>
+                  </block>
+                </value>
+              </block>
+            </statement>
+          </block>
+        </statement>
+        <statement name="ELSE">
+          <block type="component_method" id="gV7Tj.x1{Bjl#N8QRqII">
+            <mutation component_type="Notifier" method_name="ShowChooseDialog" is_generic="false" instance_name="Notifier1"></mutation>
+            <field name="COMPONENT_SELECTOR">Notifier1</field>
+            <value name="ARG0">
+              <block type="text" id="W}]gl1bAU8ERp.U^Id:d">
+                <field name="TEXT">Apakah yakin update data?</field>
+              </block>
+            </value>
+            <value name="ARG1">
+              <block type="text" id="6-Lm4lk2A_,s.ZP8Hl,?">
+                <field name="TEXT">Update</field>
+              </block>
+            </value>
+            <value name="ARG2">
+              <block type="text" id="mY1x;)];Nk4`#;)1~eu4">
+                <field name="TEXT">Ya</field>
+              </block>
+            </value>
+            <value name="ARG3">
+              <block type="text" id="/(KU]u[|%UgEDcG/Vodm">
+                <field name="TEXT">Tidak</field>
+              </block>
+            </value>
+            <value name="ARG4">
+              <block type="logic_boolean" id=".*=}^{cKbI6Sm^7n]Qf6">
+                <field name="BOOL">FALSE</field>
+              </block>
+            </value>
+          </block>
+        </statement>
+      </block>
+    </statement>
+  </block>
+  <block type="component_event" id="!S%)m;cgR-(IFj||g6d=" x="190" y="610">
+    <mutation component_type="Notifier" is_generic="false" instance_name="Notifier1" event_name="AfterChoosing"></mutation>
+    <field name="COMPONENT_SELECTOR">Notifier1</field>
+    <statement name="DO">
+      <block type="controls_if" id="Y})oj/COGDs{VY]wrTkT">
+        <value name="IF0">
+          <block type="logic_compare" id="6TEUCi:5zG*y$D)b%DQX">
+            <field name="OP">EQ</field>
+            <value name="A">
+              <block type="lexical_variable_get" id="-ts9(Uf23RBro;2/cQ_j">
+                <mutation>
+                  <eventparam name="choice"></eventparam>
+                </mutation>
+                <field name="VAR">choice</field>
+              </block>
+            </value>
+            <value name="B">
+              <block type="text" id="F1m_Cw..TH3/SP+XoV.A">
+                <field name="TEXT">Ya</field>
+              </block>
+            </value>
+          </block>
+        </value>
+        <statement name="DO0">
+          <block type="component_method" id="!/%[$JERs%~5Zyw_l?+R">
+            <mutation component_type="FirebaseDB" method_name="ClearTag" is_generic="false" instance_name="Firebase_Database2"></mutation>
+            <field name="COMPONENT_SELECTOR">Firebase_Database2</field>
+            <value name="ARG0">
+              <block type="controls_getStartValue" id=")y(D3}6@mPoNuHw^mJ]r"></block>
+            </value>
+            <next>
+              <block type="component_method" id="E1AYdJ.]5uWplvy:K3X:">
+                <mutation component_type="FirebaseDB" method_name="StoreValue" is_generic="false" instance_name="Firebase_Database2"></mutation>
+                <field name="COMPONENT_SELECTOR">Firebase_Database2</field>
+                <value name="ARG0">
+                  <block type="component_set_get" id="]u[b.-EpA;M`a_pBv0fT">
+                    <mutation component_type="TextBox" set_or_get="get" property_name="Text" is_generic="false" instance_name="data_id_pasien"></mutation>
+                    <field name="COMPONENT_SELECTOR">data_id_pasien</field>
+                    <field name="PROP">Text</field>
+                  </block>
+                </value>
+                <value name="ARG1">
+                  <block type="lists_create_with" id="oSw`r-!no,(_(hEzLn6T">
+                    <mutation items="7"></mutation>
+                    <value name="ADD0">
+                      <block type="component_set_get" id="WzR!]r5Fn04]zo9Uihbv">
+                        <mutation component_type="TextBox" set_or_get="get" property_name="Text" is_generic="false" instance_name="data_id_pasien"></mutation>
+                        <field name="COMPONENT_SELECTOR">data_id_pasien</field>
+                        <field name="PROP">Text</field>
+                      </block>
+                    </value>
+                    <value name="ADD1">
+                      <block type="component_set_get" id="HGf}s43p?EL-!!U,Pbrg">
+                        <mutation component_type="TextBox" set_or_get="get" property_name="Text" is_generic="false" instance_name="data_nama_pasien"></mutation>
+                        <field name="COMPONENT_SELECTOR">data_nama_pasien</field>
+                        <field name="PROP">Text</field>
+                      </block>
+                    </value>
+                    <value name="ADD2">
+                      <block type="component_set_get" id="Ph1}:|,=eIgr!dK{FpKU">
+                        <mutation component_type="TextBox" set_or_get="get" property_name="Text" is_generic="false" instance_name="data_tmpt_tgl_lahir"></mutation>
+                        <field name="COMPONENT_SELECTOR">data_tmpt_tgl_lahir</field>
+                        <field name="PROP">Text</field>
+                      </block>
+                    </value>
+                    <value name="ADD3">
+                      <block type="component_set_get" id="y.ptByBhK}9O0O%w|G?,">
+                        <mutation component_type="TextBox" set_or_get="get" property_name="Text" is_generic="false" instance_name="data_gender"></mutation>
+                        <field name="COMPONENT_SELECTOR">data_gender</field>
+                        <field name="PROP">Text</field>
+                      </block>
+                    </value>
+                    <value name="ADD4">
+                      <block type="component_set_get" id="1?QO0%s(!uf^Yxhz4:Ug">
+                        <mutation component_type="TextBox" set_or_get="get" property_name="Text" is_generic="false" instance_name="data_gol_darah"></mutation>
+                        <field name="COMPONENT_SELECTOR">data_gol_darah</field>
+                        <field name="PROP">Text</field>
+                      </block>
+                    </value>
+                    <value name="ADD5">
+                      <block type="component_set_get" id="RK@Uu$?-tn:M|j4[+3zX">
+                        <mutation component_type="TextBox" set_or_get="get" property_name="Text" is_generic="false" instance_name="data_tinggibdn_pasien"></mutation>
+                        <field name="COMPONENT_SELECTOR">data_tinggibdn_pasien</field>
+                        <field name="PROP">Text</field>
+                      </block>
+                    </value>
+                    <value name="ADD6">
+                      <block type="component_set_get" id=":Kd7HqmpPAA[|:Y+D0MT">
+                        <mutation component_type="TextBox" set_or_get="get" property_name="Text" is_generic="false" instance_name="data_beratbdn_pasien"></mutation>
+                        <field name="COMPONENT_SELECTOR">data_beratbdn_pasien</field>
+                        <field name="PROP">Text</field>
+                      </block>
+                    </value>
+                  </block>
+                </value>
+              </block>
+            </next>
+          </block>
+        </statement>
+      </block>
+    </statement>
+  </block>
+  <block type="component_event" id="TYeZFci9Z3/M#mVjNC,e" x="170" y="1031">
+    <mutation component_type="FirebaseDB" is_generic="false" instance_name="Firebase_Database2" event_name="DataChanged"></mutation>
+    <field name="COMPONENT_SELECTOR">Firebase_Database2</field>
+    <statement name="DO">
+      <block type="controls_if" id="t!R`2,zAnZ1e;-_iy[6|">
+        <value name="IF0">
+          <block type="logic_compare" id="8f2{~[S.D/3CAO2kRTe+">
+            <field name="OP">EQ</field>
+            <value name="A">
+              <block type="lexical_variable_get" id="O`F9*Q5u{AM05VT^_D=~">
+                <mutation>
+                  <eventparam name="tag"></eventparam>
+                </mutation>
+                <field name="VAR">tag</field>
+              </block>
+            </value>
+            <value name="B">
+              <block type="component_set_get" id="o^,:rhG)Ys;[r$Zc.5In">
+                <mutation component_type="TextBox" set_or_get="get" property_name="Text" is_generic="false" instance_name="data_id_pasien"></mutation>
+                <field name="COMPONENT_SELECTOR">data_id_pasien</field>
+                <field name="PROP">Text</field>
+              </block>
+            </value>
+          </block>
+        </value>
+        <statement name="DO0">
+          <block type="component_set_get" id="-C|C^=[$WHHY%o,y,wf/">
+            <mutation component_type="TextBox" set_or_get="set" property_name="Text" is_generic="false" instance_name="data_id_pasien"></mutation>
+            <field name="COMPONENT_SELECTOR">data_id_pasien</field>
+            <field name="PROP">Text</field>
+            <value name="VALUE">
+              <block type="text" id="BzZtCaE+g`p^,!HuV4Iz">
+                <field name="TEXT"></field>
+              </block>
+            </value>
+            <next>
+              <block type="component_set_get" id="yi81z+:%HUG-T(DJ{{UM">
+                <mutation component_type="TextBox" set_or_get="set" property_name="Text" is_generic="false" instance_name="data_nama_pasien"></mutation>
+                <field name="COMPONENT_SELECTOR">data_nama_pasien</field>
+                <field name="PROP">Text</field>
+                <value name="VALUE">
+                  <block type="text" id="pV;}eRggA0Xb4KZqW1gX">
+                    <field name="TEXT"></field>
+                  </block>
+                </value>
+                <next>
+                  <block type="component_set_get" id="YI~KGO)Ly1DfRs;7(t|)">
+                    <mutation component_type="TextBox" set_or_get="set" property_name="Text" is_generic="false" instance_name="data_tmpt_tgl_lahir"></mutation>
+                    <field name="COMPONENT_SELECTOR">data_tmpt_tgl_lahir</field>
+                    <field name="PROP">Text</field>
+                    <value name="VALUE">
+                      <block type="text" id="3m9LEz7lt-oE~jV*vtS,">
+                        <field name="TEXT"></field>
+                      </block>
+                    </value>
+                    <next>
+                      <block type="component_set_get" id="9h}#eht9k}jkXo/Oijwv">
+                        <mutation component_type="TextBox" set_or_get="set" property_name="Text" is_generic="false" instance_name="data_gender"></mutation>
+                        <field name="COMPONENT_SELECTOR">data_gender</field>
+                        <field name="PROP">Text</field>
+                        <value name="VALUE">
+                          <block type="text" id="G;)t_vIKzUh^qLUqA-i%">
+                            <field name="TEXT"></field>
+                          </block>
+                        </value>
+                        <next>
+                          <block type="component_set_get" id="*8f7QsqlUjHv2K|(ST%F">
+                            <mutation component_type="TextBox" set_or_get="set" property_name="Text" is_generic="false" instance_name="data_gol_darah"></mutation>
+                            <field name="COMPONENT_SELECTOR">data_gol_darah</field>
+                            <field name="PROP">Text</field>
+                            <value name="VALUE">
+                              <block type="text" id="#(udXj{*I.+{nDBn.:?P">
+                                <field name="TEXT"></field>
+                              </block>
+                            </value>
+                            <next>
+                              <block type="component_set_get" id="/6qm_tde]09{Iu;v4WzQ">
+                                <mutation component_type="TextBox" set_or_get="set" property_name="Text" is_generic="false" instance_name="data_tinggibdn_pasien"></mutation>
+                                <field name="COMPONENT_SELECTOR">data_tinggibdn_pasien</field>
+                                <field name="PROP">Text</field>
+                                <value name="VALUE">
+                                  <block type="text" id="#48/@~9YW2u%Y-/U*~ul">
+                                    <field name="TEXT"></field>
+                                  </block>
+                                </value>
+                                <next>
+                                  <block type="component_set_get" id="kn8])VrhN[{HSoi4mPL4">
+                                    <mutation component_type="TextBox" set_or_get="set" property_name="Text" is_generic="false" instance_name="data_beratbdn_pasien"></mutation>
+                                    <field name="COMPONENT_SELECTOR">data_beratbdn_pasien</field>
+                                    <field name="PROP">Text</field>
+                                    <value name="VALUE">
+                                      <block type="text" id="%!vy8^T8|WSr,DH7bZ|R">
+                                        <field name="TEXT"></field>
+                                      </block>
+                                    </value>
+                                    <next>
+                                      <block type="component_method" id="1*GJ}2f;f4(#6+H;q^s_">
+                                        <mutation component_type="Notifier" method_name="ShowAlert" is_generic="false" instance_name="Notifier1"></mutation>
+                                        <field name="COMPONENT_SELECTOR">Notifier1</field>
+                                        <value name="ARG0">
+                                          <block type="text" id="#!zs!rSxE@:+b6+WinDl">
+                                            <field name="TEXT">Data berhasil diupdate</field>
+                                          </block>
+                                        </value>
+                                        <next>
+                                          <block type="controls_openAnotherScreen" id="`|MF6{+3kGy#qtc*WV8*">
+                                            <value name="SCREEN">
+                                              <block type="helpers_screen_names" id="r790FN)56F0o{qX-[x!8">
+                                                <field name="SCREEN">readhasillab</field>
+                                              </block>
+                                            </value>
+                                          </block>
+                                        </next>
+                                      </block>
+                                    </next>
+                                  </block>
+                                </next>
+                              </block>
+                            </next>
+                          </block>
+                        </next>
+                      </block>
+                    </next>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </statement>
+      </block>
+    </statement>
+  </block>
+  <block type="component_event" id="c?oxn?`vlKlf~me-d7[p" x="-390" y="1250">
+    <mutation component_type="Button" is_generic="false" instance_name="Kembali" event_name="Click"></mutation>
+    <field name="COMPONENT_SELECTOR">Kembali</field>
+    <statement name="DO">
+      <block type="controls_openAnotherScreen" id="d|Y:/U|l41J3}cm8~V1V">
+        <value name="SCREEN">
+          <block type="helpers_screen_names" id="qpH$RQTEZ$of5%qU!!Xb">
+            <field name="SCREEN">readhasillab</field>
+          </block>
+        </value>
+      </block>
+    </statement>
+  </block>
+  <block type="controls_if" id="sP56~]?C/lMf=R^j0}_]" x="-2450" y="1510">
+    <statement name="DO0">
+      <block type="component_set_get" id="sOajhd4`SRKu~Ag0snWu">
+        <mutation component_type="Button" set_or_get="set" property_name="BackgroundColor" is_generic="false" instance_name="Tambah"></mutation>
+        <field name="COMPONENT_SELECTOR">Tambah</field>
+        <field name="PROP">BackgroundColor</field>
+        <value name="VALUE">
+          <block type="color_light_blue" id="A_q*)]3k4gmC9N7z/ngJ">
+            <field name="COLOR">#33ccff</field>
+          </block>
+        </value>
+      </block>
+    </statement>
+  </block>
+  <yacodeblocks ya-version="242" language-version="34"></yacodeblocks>
+</xml>

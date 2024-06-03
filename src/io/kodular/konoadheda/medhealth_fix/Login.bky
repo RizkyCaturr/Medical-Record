@@ -1,0 +1,227 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <block type="component_event" id="PKN/F6Ys3U%7[T?W-?qq" x="-310" y="-330">
+    <mutation component_type="Button" is_generic="false" instance_name="btn_login" event_name="Click"></mutation>
+    <field name="COMPONENT_SELECTOR">btn_login</field>
+    <statement name="DO">
+      <block type="controls_if" id="FYN6`P8B.,a^:vSh7XR%">
+        <mutation elseif="1" else="1"></mutation>
+        <value name="IF0">
+          <block type="text_isEmpty" id="dus;ZG~Y.7^kjIzq*o(`">
+            <value name="VALUE">
+              <block type="component_set_get" id="RqWgC4[E.eTVYaaJ7wz#">
+                <mutation component_type="TextBox" set_or_get="get" property_name="Text" is_generic="false" instance_name="tbox_username"></mutation>
+                <field name="COMPONENT_SELECTOR">tbox_username</field>
+                <field name="PROP">Text</field>
+              </block>
+            </value>
+          </block>
+        </value>
+        <statement name="DO0">
+          <block type="component_method" id="%mFTmKx#BOvKaJS9I))j">
+            <mutation component_type="Notifier" method_name="ShowAlert" is_generic="false" instance_name="Notifier1"></mutation>
+            <field name="COMPONENT_SELECTOR">Notifier1</field>
+            <value name="ARG0">
+              <block type="text" id="mO_6sCVw?0o96/:us2q6">
+                <field name="TEXT">Masukan Username</field>
+              </block>
+            </value>
+          </block>
+        </statement>
+        <value name="IF1">
+          <block type="text_isEmpty" id="x0|^9)`xDUvBvSq3Ap$M">
+            <value name="VALUE">
+              <block type="component_set_get" id="|sfA_0QC]DfBasdakQlR">
+                <mutation component_type="TextBox" set_or_get="get" property_name="Text" is_generic="false" instance_name="tbox_password"></mutation>
+                <field name="COMPONENT_SELECTOR">tbox_password</field>
+                <field name="PROP">Text</field>
+              </block>
+            </value>
+          </block>
+        </value>
+        <statement name="DO1">
+          <block type="component_method" id="jDhA(LdhME9CKaK:r^YF">
+            <mutation component_type="Notifier" method_name="ShowAlert" is_generic="false" instance_name="Notifier1"></mutation>
+            <field name="COMPONENT_SELECTOR">Notifier1</field>
+            <value name="ARG0">
+              <block type="text" id="tva3?fqgYY!hx_ZD=mF`">
+                <field name="TEXT">Masukan Password</field>
+              </block>
+            </value>
+          </block>
+        </statement>
+        <statement name="ELSE">
+          <block type="component_method" id="2bcySV3a]U!q9Qt`RMej">
+            <mutation component_type="FirebaseDB" method_name="GetValue" is_generic="false" instance_name="Firebase_Database1"></mutation>
+            <field name="COMPONENT_SELECTOR">Firebase_Database1</field>
+            <value name="ARG0">
+              <block type="component_set_get" id="tv*z4@;Q1Fp2/!_5icDA">
+                <mutation component_type="TextBox" set_or_get="get" property_name="Text" is_generic="false" instance_name="tbox_username"></mutation>
+                <field name="COMPONENT_SELECTOR">tbox_username</field>
+                <field name="PROP">Text</field>
+              </block>
+            </value>
+            <value name="ARG1">
+              <block type="text" id="3LhR1HMW(B01BF/7-YyH">
+                <field name="TEXT">Data tidak Ada</field>
+              </block>
+            </value>
+          </block>
+        </statement>
+      </block>
+    </statement>
+  </block>
+  <block type="component_event" id="eIb-PqizF~{d1^#yJ@#S" x="-330" y="10">
+    <mutation component_type="FirebaseDB" is_generic="false" instance_name="Firebase_Database1" event_name="GotValue"></mutation>
+    <field name="COMPONENT_SELECTOR">Firebase_Database1</field>
+    <statement name="DO">
+      <block type="lexical_variable_set" id="QP-:wnPx9mR[SG**+Zig">
+        <field name="VAR">global Data_username</field>
+        <value name="VALUE">
+          <block type="lexical_variable_get" id="5/G@M?n]O8A07tyNbXYg">
+            <mutation>
+              <eventparam name="value"></eventparam>
+            </mutation>
+            <field name="VAR">value</field>
+          </block>
+        </value>
+        <next>
+          <block type="controls_if" id="(OlnT]oUfE1{A.WZm/=S">
+            <mutation else="1"></mutation>
+            <value name="IF0">
+              <block type="logic_compare" id="tFSwA?aL`}qlX%=d-}zx">
+                <field name="OP">EQ</field>
+                <value name="A">
+                  <block type="lists_select_item" id="cA@X7=3CP(`?.MTn,_Al">
+                    <value name="LIST">
+                      <block type="lexical_variable_get" id="{olsE^gooZ,4?~2U7q(e">
+                        <field name="VAR">global Data_username</field>
+                      </block>
+                    </value>
+                    <value name="NUM">
+                      <block type="math_number" id="v-Ja`ln4A!f9SelfL7qd">
+                        <field name="NUM">2</field>
+                      </block>
+                    </value>
+                  </block>
+                </value>
+                <value name="B">
+                  <block type="component_set_get" id="=^|r]alL;[P9d!xx(K%H">
+                    <mutation component_type="TextBox" set_or_get="get" property_name="Text" is_generic="false" instance_name="tbox_password"></mutation>
+                    <field name="COMPONENT_SELECTOR">tbox_password</field>
+                    <field name="PROP">Text</field>
+                  </block>
+                </value>
+              </block>
+            </value>
+            <statement name="DO0">
+              <block type="controls_openAnotherScreenWithStartValue" id="Vx+)e;Fgh#pNi{c3xDf#">
+                <value name="SCREENNAME">
+                  <block type="helpers_screen_names" id="Y`p+{Z@IMy{W1G)s5ah|">
+                    <field name="SCREEN">Menu</field>
+                  </block>
+                </value>
+                <value name="STARTVALUE">
+                  <block type="lists_select_item" id="NA.*[=:Y#ijjhMLubHZ]">
+                    <value name="LIST">
+                      <block type="lexical_variable_get" id="ymQYH!*b}Mucx)4j)cYV">
+                        <field name="VAR">global Data_username</field>
+                      </block>
+                    </value>
+                    <value name="NUM">
+                      <block type="math_number" id="tE^POftk}B1Lvr-#jVSn">
+                        <field name="NUM">1</field>
+                      </block>
+                    </value>
+                  </block>
+                </value>
+              </block>
+            </statement>
+            <statement name="ELSE">
+              <block type="component_method" id="s4_/9x+ZsRN(%k6/.ta_">
+                <mutation component_type="Notifier" method_name="ShowAlert" is_generic="false" instance_name="Notifier1"></mutation>
+                <field name="COMPONENT_SELECTOR">Notifier1</field>
+                <value name="ARG0">
+                  <block type="text" id="AV:uwA%B[+8oyj}3[3N}">
+                    <field name="TEXT">Username/Password salah!</field>
+                  </block>
+                </value>
+              </block>
+            </statement>
+          </block>
+        </next>
+      </block>
+    </statement>
+  </block>
+  <block type="component_event" id="I2+3R~GEeGo8t]xSNBLF" x="270" y="290">
+    <mutation component_type="CheckBox" is_generic="false" instance_name="Checkbox1" event_name="Changed"></mutation>
+    <field name="COMPONENT_SELECTOR">Checkbox1</field>
+    <statement name="DO">
+      <block type="controls_if" id="-;@=s^BkZH+LM7x!GNlh">
+        <mutation else="1"></mutation>
+        <value name="IF0">
+          <block type="math_compare" id="::~e?Ze$O,=xJ|k9/8k[">
+            <field name="OP">EQ</field>
+            <value name="A">
+              <block type="component_set_get" id="k/qVN6#W!pxS9lnRuZx#">
+                <mutation component_type="TextBox" set_or_get="get" property_name="InputType" is_generic="false" instance_name="tbox_password"></mutation>
+                <field name="COMPONENT_SELECTOR">tbox_password</field>
+                <field name="PROP">InputType</field>
+              </block>
+            </value>
+            <value name="B">
+              <block type="math_number" id="r@Clg`lHq*nJhke1W1!}">
+                <field name="NUM">1</field>
+              </block>
+            </value>
+          </block>
+        </value>
+        <statement name="DO0">
+          <block type="component_set_get" id="SQ+E]UWYr{oKT3nZljc{">
+            <mutation component_type="TextBox" set_or_get="set" property_name="InputType" is_generic="false" instance_name="tbox_password"></mutation>
+            <field name="COMPONENT_SELECTOR">tbox_password</field>
+            <field name="PROP">InputType</field>
+            <value name="VALUE">
+              <block type="math_number" id="29UQ]MhKHuY_zzLotR4F">
+                <field name="NUM">2</field>
+              </block>
+            </value>
+          </block>
+        </statement>
+        <statement name="ELSE">
+          <block type="component_set_get" id="`(C{/8b?M[Dlzf-4HD?M">
+            <mutation component_type="TextBox" set_or_get="set" property_name="InputType" is_generic="false" instance_name="tbox_password"></mutation>
+            <field name="COMPONENT_SELECTOR">tbox_password</field>
+            <field name="PROP">InputType</field>
+            <value name="VALUE">
+              <block type="math_number" id="_,tKnBw[cfkn)IHUCXNv">
+                <field name="NUM">1</field>
+              </block>
+            </value>
+          </block>
+        </statement>
+      </block>
+    </statement>
+  </block>
+  <block type="component_event" id="01~QneSF{ccub4[Co0j?" x="-330" y="330">
+    <mutation component_type="Button" is_generic="false" instance_name="btn_register" event_name="Click"></mutation>
+    <field name="COMPONENT_SELECTOR">btn_register</field>
+    <statement name="DO">
+      <block type="controls_openAnotherScreen" id="+#W+%zPAI1X@oqM2VsP#">
+        <value name="SCREEN">
+          <block type="helpers_screen_names" id="iIZ^IsTWUuD(nR*-r{G=">
+            <field name="SCREEN">Register</field>
+          </block>
+        </value>
+      </block>
+    </statement>
+  </block>
+  <block type="global_declaration" id="[.ZGcZ,fa]R|)?-s9~wy" x="-330" y="410">
+    <field name="NAME">Data_username</field>
+    <value name="VALUE">
+      <block type="lists_create_with" id="ju%@:$5{~-@W|bQTK1BY">
+        <mutation items="0"></mutation>
+      </block>
+    </value>
+  </block>
+  <yacodeblocks ya-version="242" language-version="34"></yacodeblocks>
+</xml>

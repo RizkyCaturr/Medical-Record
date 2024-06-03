@@ -1,0 +1,122 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <block type="component_event" id="gq#xGkCv8Lmf6DBc:-M(" x="-350" y="-206">
+    <mutation component_type="Button" is_generic="false" instance_name="btnBack" event_name="Click"></mutation>
+    <field name="COMPONENT_SELECTOR">btnBack</field>
+    <statement name="DO">
+      <block type="controls_openAnotherScreen" id="{=+[*/6}X?do}4?@uD#z">
+        <value name="SCREEN">
+          <block type="helpers_screen_names" id="e)Ytz@:SfRiFbqbcy[4I">
+            <field name="SCREEN">Menu</field>
+          </block>
+        </value>
+      </block>
+    </statement>
+  </block>
+  <block type="component_event" id="l}OMr.umTgd0k`PbrpKL" x="70" y="-206">
+    <mutation component_type="Button" is_generic="false" instance_name="btnLogout" event_name="Click"></mutation>
+    <field name="COMPONENT_SELECTOR">btnLogout</field>
+    <statement name="DO">
+      <block type="controls_openAnotherScreenWithStartValue" id="H#b)]Q]L-pT^}J-`O|j8">
+        <value name="SCREENNAME">
+          <block type="helpers_screen_names" id="L7Vc7@4.ZP[i0K:Gh_fB">
+            <field name="SCREEN">Login</field>
+          </block>
+        </value>
+      </block>
+    </statement>
+  </block>
+  <block type="component_event" id="w:CM|eX#s)8{}Bd9j}g:" x="-350" y="-126">
+    <mutation component_type="Button" is_generic="false" instance_name="btnUpdt" event_name="Click"></mutation>
+    <field name="COMPONENT_SELECTOR">btnUpdt</field>
+    <statement name="DO">
+      <block type="controls_openAnotherScreen" id="]0HA=m2G5#P3nhAVwCr2"></block>
+    </statement>
+  </block>
+  <block type="component_event" id="ox7P(QLh*#OES6xkkdy!" x="-350" y="-26">
+    <mutation component_type="Form" is_generic="false" instance_name="Profil" event_name="Initialize"></mutation>
+    <field name="COMPONENT_SELECTOR">Profil</field>
+    <statement name="DO">
+      <block type="component_method" id="ZhTlnnj.gN5v1uyU{l*f">
+        <mutation component_type="FirebaseDB" method_name="GetValue" is_generic="false" instance_name="Firebase_Database1"></mutation>
+        <field name="COMPONENT_SELECTOR">Firebase_Database1</field>
+        <value name="ARG1">
+          <block type="text" id="*xRj=@K[LsGFU/rE45!9">
+            <field name="TEXT"></field>
+          </block>
+        </value>
+        <next>
+          <block type="component_set_get" id="g:B[~7(oZfs%$gWjBpbj">
+            <mutation component_type="TextBox" set_or_get="set" property_name="Text" is_generic="false" instance_name="box_username"></mutation>
+            <field name="COMPONENT_SELECTOR">box_username</field>
+            <field name="PROP">Text</field>
+            <value name="VALUE">
+              <block type="controls_getStartValue" id="cjI|AtJyfp`;NkE@9/=3"></block>
+            </value>
+            <next>
+              <block type="component_set_get" id="}d-c3qQ^r5p,#~_UqZvm">
+                <mutation component_type="TextBox" set_or_get="set" property_name="Text" is_generic="false" instance_name="box_password"></mutation>
+                <field name="COMPONENT_SELECTOR">box_password</field>
+                <field name="PROP">Text</field>
+                <value name="VALUE">
+                  <block type="controls_getStartValue" id="(du|Pm3M^WorCC3Yiam?"></block>
+                </value>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </statement>
+  </block>
+  <block type="global_declaration" id="oZ`BlInd_[@OXiS#Wj#7" x="-350" y="170">
+    <field name="NAME">data</field>
+    <value name="VALUE">
+      <block type="lists_create_with" id="@z1xd(6te?{uU|#O?1c;">
+        <mutation items="0"></mutation>
+      </block>
+    </value>
+  </block>
+  <block type="component_event" id="0Y/r29,QVeU`(~N7e-J5" x="-350" y="210">
+    <mutation component_type="FirebaseDB" is_generic="false" instance_name="Firebase_Database1" event_name="TagList"></mutation>
+    <field name="COMPONENT_SELECTOR">Firebase_Database1</field>
+    <statement name="DO">
+      <block type="lexical_variable_set" id="puairEfGSTy:lf[i5HW4">
+        <field name="VAR">global data</field>
+        <value name="VALUE">
+          <block type="lists_create_with" id="`L5oC-ewSV+}g8(BfR8w">
+            <mutation items="0"></mutation>
+          </block>
+        </value>
+        <next>
+          <block type="controls_forEach" id="TOmrjRXsex3C(fJQ_FdL">
+            <field name="VAR">item</field>
+            <value name="LIST">
+              <block type="lexical_variable_get" id="3y|8/l#rw%{7rH:xf?6o">
+                <mutation>
+                  <eventparam name="value"></eventparam>
+                </mutation>
+                <field name="VAR">value</field>
+              </block>
+            </value>
+            <statement name="DO">
+              <block type="component_method" id="_([-}Bivsc6}kk~QkXgg">
+                <mutation component_type="FirebaseDB" method_name="GetValue" is_generic="false" instance_name="Firebase_Database1"></mutation>
+                <field name="COMPONENT_SELECTOR">Firebase_Database1</field>
+                <value name="ARG0">
+                  <block type="lexical_variable_get" id="ayT;E;BKi(goAw{O%yL9">
+                    <field name="VAR">item</field>
+                  </block>
+                </value>
+                <value name="ARG1">
+                  <block type="text" id="kF?U~g5~d/{+(tc9P[;_">
+                    <field name="TEXT"></field>
+                  </block>
+                </value>
+              </block>
+            </statement>
+          </block>
+        </next>
+      </block>
+    </statement>
+  </block>
+  <yacodeblocks ya-version="242" language-version="34"></yacodeblocks>
+</xml>

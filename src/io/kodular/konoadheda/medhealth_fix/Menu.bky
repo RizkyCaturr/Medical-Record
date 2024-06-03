@@ -1,0 +1,176 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <block type="component_event" id="4?W|*c$GaFr%F2o+bc/s" x="-450" y="-110">
+    <mutation component_type="Form" is_generic="false" instance_name="Menu" event_name="Initialize"></mutation>
+    <field name="COMPONENT_SELECTOR">Menu</field>
+    <statement name="DO">
+      <block type="component_set_get" id="5K$q@bsxk7dd?PoGg/z@">
+        <mutation component_type="MakeroidCardView" set_or_get="set" property_name="ContentPaddingTop" is_generic="true"></mutation>
+        <field name="PROP">ContentPaddingTop</field>
+        <value name="COMPONENT">
+          <block type="component_component_block" id="P=)AcqRzO^T!:^e.h~/3">
+            <mutation component_type="MakeroidCardView" instance_name="bagian1"></mutation>
+            <field name="COMPONENT_SELECTOR">bagian1</field>
+          </block>
+        </value>
+        <value name="VALUE">
+          <block type="math_number" id="sAU3p=I|B)qe-=Eygd=D">
+            <field name="NUM">0</field>
+          </block>
+        </value>
+        <next>
+          <block type="component_set_get" id="XFDoR2_D*U7P4dk;exQ$">
+            <mutation component_type="MakeroidCardView" set_or_get="set" property_name="ContentPaddingLeft" is_generic="true"></mutation>
+            <field name="PROP">ContentPaddingLeft</field>
+            <value name="COMPONENT">
+              <block type="component_component_block" id="XG09:Dpm_+}x@O:Y(Suv">
+                <mutation component_type="MakeroidCardView" instance_name="bagian1"></mutation>
+                <field name="COMPONENT_SELECTOR">bagian1</field>
+              </block>
+            </value>
+            <value name="VALUE">
+              <block type="math_number" id=".-r^UUd*xCG5Pqo%M!/9">
+                <field name="NUM">0</field>
+              </block>
+            </value>
+            <next>
+              <block type="component_set_get" id="}2N[t5tijn`rP|YQL4_g">
+                <mutation component_type="MakeroidCardView" set_or_get="set" property_name="ContentPaddingRight" is_generic="true"></mutation>
+                <field name="PROP">ContentPaddingRight</field>
+                <value name="COMPONENT">
+                  <block type="component_component_block" id="1jx^5TkE41bK;cidjZ${">
+                    <mutation component_type="MakeroidCardView" instance_name="bagian1"></mutation>
+                    <field name="COMPONENT_SELECTOR">bagian1</field>
+                  </block>
+                </value>
+                <value name="VALUE">
+                  <block type="math_number" id="Ms9@8Qq~m+(1-?f]ahY4">
+                    <field name="NUM">0</field>
+                  </block>
+                </value>
+                <next>
+                  <block type="component_method" id="s4UY9Q3ptU4dzR#3X9I#">
+                    <mutation component_type="FirebaseDB" method_name="GetValue" is_generic="false" instance_name="Firebase_Database1"></mutation>
+                    <field name="COMPONENT_SELECTOR">Firebase_Database1</field>
+                    <value name="ARG0">
+                      <block type="controls_getStartValue" id="(du|Pm3M^WorCC3Yiam?"></block>
+                    </value>
+                    <value name="ARG1">
+                      <block type="text" id="w5b/=|O#eF#-.+Cwb1@o">
+                        <field name="TEXT"></field>
+                      </block>
+                    </value>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </statement>
+  </block>
+  <block type="component_event" id="g(OHJEE|AggIIP,#-q5V" x="50" y="-90">
+    <mutation component_type="VerticalArrangement" is_generic="false" instance_name="card_profile" event_name="Click"></mutation>
+    <field name="COMPONENT_SELECTOR">card_profile</field>
+    <statement name="DO">
+      <block type="controls_openAnotherScreen" id="+b?O-$OQnE?-e98BQiP5">
+        <value name="SCREEN">
+          <block type="helpers_screen_names" id="(C(4:i%t:|MkroK1!DS!">
+            <field name="SCREEN">Profil</field>
+          </block>
+        </value>
+      </block>
+    </statement>
+  </block>
+  <block type="component_event" id="Q[(^k2jdJR]B^}t]|]pI" x="50" y="-30">
+    <mutation component_type="Label" is_generic="false" instance_name="Label2" event_name="Click"></mutation>
+    <field name="COMPONENT_SELECTOR">Label2</field>
+    <statement name="DO">
+      <block type="controls_openAnotherScreen" id="ZLtaT-q0Xu?lR0]IZmgx">
+        <value name="SCREEN">
+          <block type="helpers_screen_names" id="){y`W+?x^Py$IbZ(+b+F">
+            <field name="SCREEN">Profil</field>
+          </block>
+        </value>
+      </block>
+    </statement>
+  </block>
+  <block type="component_event" id="9HtS.Y]vnKd!CR7|F6_~" x="50" y="50">
+    <mutation component_type="VerticalArrangement" is_generic="false" instance_name="card_2" event_name="Click"></mutation>
+    <field name="COMPONENT_SELECTOR">card_2</field>
+    <statement name="DO">
+      <block type="controls_openAnotherScreen" id="Gp$6@KM1@WyXKE?`DRB-">
+        <value name="SCREEN">
+          <block type="helpers_screen_names" id="1=oCcox5g2C3ob_$BCKa">
+            <field name="SCREEN">readhasillab</field>
+          </block>
+        </value>
+      </block>
+    </statement>
+  </block>
+  <block type="component_event" id="Ai5,9-0a@XK8K$+Rr;`+" x="50" y="110">
+    <mutation component_type="Label" is_generic="false" instance_name="label2" event_name="Click"></mutation>
+    <field name="COMPONENT_SELECTOR">label2</field>
+    <statement name="DO">
+      <block type="controls_openAnotherScreen" id="Nsk=rUzp^gD.%kG[V0zx">
+        <value name="SCREEN">
+          <block type="helpers_screen_names" id="iOadiOYXkmQTO,wgA7p^">
+            <field name="SCREEN">readhasillab</field>
+          </block>
+        </value>
+      </block>
+    </statement>
+  </block>
+  <block type="component_event" id="XHv0qr,rSV=(xTfeo$~B" x="50" y="190">
+    <mutation component_type="VerticalArrangement" is_generic="false" instance_name="card_3" event_name="Click"></mutation>
+    <field name="COMPONENT_SELECTOR">card_3</field>
+    <statement name="DO">
+      <block type="controls_openAnotherScreen" id="qk5MaI=oUN6-]kLVN$LG">
+        <value name="SCREEN">
+          <block type="helpers_screen_names" id="!+#i2a%+l#rsA-3:5mfT">
+            <field name="SCREEN">readobat</field>
+          </block>
+        </value>
+      </block>
+    </statement>
+  </block>
+  <block type="component_event" id="4E5uY=hT,I7l([,9;Lj." x="50" y="250">
+    <mutation component_type="Label" is_generic="false" instance_name="label3" event_name="Click"></mutation>
+    <field name="COMPONENT_SELECTOR">label3</field>
+    <statement name="DO">
+      <block type="controls_openAnotherScreen" id="b3M(fNZ~%mcAJZ8DCQ;y">
+        <value name="SCREEN">
+          <block type="helpers_screen_names" id="]eOO=qtI6a!QonYkeZd^">
+            <field name="SCREEN">readobat</field>
+          </block>
+        </value>
+      </block>
+    </statement>
+  </block>
+  <block type="component_event" id="4Lo2XuJ[7!Ha6pET6RZQ" x="50" y="330">
+    <mutation component_type="VerticalArrangement" is_generic="false" instance_name="card_4" event_name="Click"></mutation>
+    <field name="COMPONENT_SELECTOR">card_4</field>
+    <statement name="DO">
+      <block type="controls_openAnotherScreen" id="+B]XOu|45fVG5!k4Jk.d">
+        <value name="SCREEN">
+          <block type="helpers_screen_names" id="U)]JUB1mGjxc.837F($p">
+            <field name="SCREEN">rekammedisRead</field>
+          </block>
+        </value>
+      </block>
+    </statement>
+  </block>
+  <block type="component_event" id="=y;}zl:B9:G!KgUteaWF" x="50" y="390">
+    <mutation component_type="Label" is_generic="false" instance_name="label4" event_name="Click"></mutation>
+    <field name="COMPONENT_SELECTOR">label4</field>
+    <statement name="DO">
+      <block type="controls_openAnotherScreen" id="xUVb}Y7:ZNZQ]m9^}VKT">
+        <value name="SCREEN">
+          <block type="helpers_screen_names" id="ErR)/Ed%gW}o*)3vhdQ]">
+            <field name="SCREEN">rekammedisRead</field>
+          </block>
+        </value>
+      </block>
+    </statement>
+  </block>
+  <yacodeblocks ya-version="242" language-version="34"></yacodeblocks>
+</xml>
